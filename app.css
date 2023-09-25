@@ -8,6 +8,14 @@ h2{
     font-family: "Fira Sans", sans-serif;
 }
 
+p{
+    font-family: "Fira Sans", sans-serif;
+}
+
+td{
+    font-family: "Fira Sans", sans-serif;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
