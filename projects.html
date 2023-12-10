@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Johannes Schade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=VT323&display=swap');
+        body {
+          --bs-font-sans-serif: 'Fira Sans', sans-serif;
+          --bs-body-font-family: var(--bs-font-sans-serif);
+          --bs-font-monospace: 'Fira Code', monospace;
+        }
+      </style>
+</head>
+  <body>
+    <div class="container my-3">
+        <h1>Johannes Schade</h1>
+        <p class="lead">
+            Mathematician enjoying to code
+        </p>
+    </div>
+    <div class="container">
+        <nav>
+            <ul class="nav nav-pills ">
+                 <li class="nav-item"> 
+                     <a href="index.html" class="nav-link">Home</a>
+                 </li>  
+                 <li class="nav-item">
+                     <a href="projects.html" class="nav-link active">Projects</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="contact.html" class="nav-link">Contact</a>
+                 </li>
+            </ul> 
+         </nav>
+    </div>
+
+    <div class="container mt-5">
+    
+            
+            <div class="col">
+                <h3 class="mb-3">Projects</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4>This Website</h4>
+                        <div><strong>2023</strong></div>
+                        I created this website to experiment with HTML and CSS (in particular Bootstrap), and of course to get in touch with you. Please find the repo   <a href="https://github.com/joschade/joschade.github.io" target="_blank">on github</a>.             
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                    <h4>Report: An Epidemic as a Sequence of Random Events</h4>
+                    <h5>Seminar "Stochastics in action" at FU Berlin</h5>
+                    <div><strong>2023</strong></div>
+                    With an epidemic as a so-called "motivational" example, the report presents "Walker's Trick" a.k.a. the "Alias method", which allows to pseudo-sample from arbitrary discrete probability distributions.
+                    
+                    <div><iframe src="files/report_stochaInAction.pdf" width="800" height="375">
+                        This browser does not support PDFs. Please download the PDF to view it: 
+                        <a href="files/report_stochaInAction.pdf">Download PDF</a></iframe></div>
+                    
+                    A Jupyter notebook with an implementation of this method can be found <a href="https://github.com/joschade/stochaInAction/blob/main/stochaInAction.ipynb" target="_blank">on github</a>.                    
+                </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                    <h4>Report: The Diffusion Mean </h4>
+                    <h5>Seminar on Geometric Statistics at FU Berlin</h5>
+                    <div><strong>2022/2023</strong></div>
+                    How can we do statistics on manifolds other than Euclidean spaces? This report covers a possible generalisation of means and their estimators to (some) curved manifolds.
+                    <div> <div><iframe src="files/geostat_paper_20230315.pdf" width="800" height="375">
+                        This browser does not support PDFs. Please download the PDF to view it: 
+                        <a href="files/geostat_paper_20230315.pdf">Download PDF</a></iframe></div></div>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                    <h4>Berkeley Project 2: Pacman Maze Deep-Q Learning </h4>
+                    <h5>Artifical Intelligence class at FU Berlin, in collaboration with a fellow student</h5>
+                    <div><strong>2022</strong></div>
+                    A Jupyter notebook can be found <a href="https://github.com/joschade/ai_project_2" target="_blank">on github</a>.
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                    <h4>Berkeley Project 1: Pacman Maze Search</h4>
+                    <h5>Artifical Intelligence class at FU Berlin, in collaboration with a fellow student</h5>
+                    <div><strong>2022</strong></div>
+                    A copy of the original repo can be found <a href="https://github.com/joschade/ai_project_1" target="_blank">on github</a>.
+                    </div>
+                </div>
+               <div class="card mb-3">
+                    <div class="card-body">
+                    <h4>Interpetability of Neural Networks</h4>
+                    <h5>Bachelor thesis</h5>
+                    <div><strong>2021</strong></div>
+                    <p>The thesis examines the "Integrated Gradients method" (<a href="https://arxiv.org/abs/1703.01365" target="_blank">Sundararajan et al. 2017</a>) from a mathematical standpoint 
+                    and applies it to a convolutional network classifying X-rays of the chest into the classes "healthy" and "sick". This method consists of comparing the input to 
+                    a reference input (e.g. the black picture) and to accumulate the gradients along the linear path between these two images. </p>
+
+                    <p>Further, it is explored on how this could be exploited to create a tool marking conspicous regions in X-rays or other medical images. I measure the accuracy of such a tool by 
+                    using annotations of physicians as ground truth.</p>
+
+                    <p>You can find the thesis here:</p>
+                    <div> <div><iframe src="files/ba_thesis.pdf" width="800" height="375">
+                        This browser does not support PDFs. Please download the PDF to view it: 
+                        <a href="files/ba_thesis.pdf">Download PDF</a></iframe></div></div>
+                    </div>
+                    <p>The repo withe foung my implementation can be found <a href="https://github.com/joschade/ba_public" target="_blank">on github</a>.</p>
+                </div>
+            </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
